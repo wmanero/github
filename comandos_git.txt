@@ -1,0 +1,28 @@
+Comando	Explicação
+git init	Inicializa um novo repositório Git local na pasta atual.
+git clone <url>	Clona um repositório remoto para o diretório local.
+git status	Mostra o status atual do repositório, incluindo arquivos modificados e não rastreados.
+git add <arquivo>	Adiciona um arquivo específico à área de preparação (staging area), preparando-o para o commit.
+git add .	Adiciona todos os arquivos modificados para a área de preparação.
+git commit -m "mensagem"	Cria um commit com a mensagem especificada.
+git commit --amend	Modifica o commit anterior, permitindo alterar a mensagem ou adicionar mudanças.
+git log	Exibe o histórico de commits do repositório.
+git diff	Mostra as diferenças entre os arquivos modificados e o último commit.
+git branch	Lista as branches (ramificações) locais do repositório.
+git branch <nome-da-branch>	Cria uma nova branch com o nome especificado.
+git checkout <nome-da-branch>	Muda para a branch especificada.
+git checkout -b <nome-da-branch>	Cria uma nova branch e já muda para ela.
+git merge <nome-da-branch>	Mescla a branch especificada com a branch atual.
+git pull	Baixa e mescla as mudanças do repositório remoto para a branch atual.
+git push	Envia os commits locais para o repositório remoto.
+git push -u origin <nome-da-branch>	Envia a branch local para o remoto, configurando a branch para acompanhar o repositório remoto.
+git fetch	Baixa as atualizações do repositório remoto, mas não faz merge automaticamente.
+git reset <arquivo>	Desfaz as mudanças em um arquivo, removendo-o da área de preparação.
+git reset --hard	Desfaz todas as mudanças no repositório, retornando para o último commit.
+git remote -v	Exibe a URL dos repositórios remotos configurados para o repositório local.
+git remote add origin <url>	Adiciona um repositório remoto ao seu repositório local.
+git config --global user.name	Define o nome de usuário global para os commits do Git.
+git config --global user.email	Define o e-mail global para os commits do Git.
+git log --oneline	Exibe o histórico de commits em uma linha, com o hash de cada commit e a mensagem de commit.
+git stash	Salva temporariamente as alterações não commitadas, permitindo que você limpe o ambiente de trabalho.
+git stash pop	Recupera as alterações que foram salvas com o git stash.
